@@ -157,6 +157,7 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
+
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -165,7 +166,7 @@
 
         <div class="card card-default">
           <div class="card-header">
-            <h4 class="card-title"><b>DEPARTURE TO</b></h4>
+            <h4 class="card-title"><b>DEPARTURE TO </b></h4>
 
             
           </div>
@@ -175,10 +176,9 @@
               
               <!-- /.card-header -->
               <div class="card-body">
-                <div class="row" >
                   
-                    <div class="form-group row " style="margin: auto;">
-                      <label class="col-sm-5 col-form-label">Country</label>
+                    <div class="form-group row">
+                      <label class="col-sm-2 col-form-label">Country</label>
                       <div class="col-sm-6">
                         <select class="form-control select2bs4" style="width: 100%;">
                           <option selected="selected"></option>
@@ -190,7 +190,7 @@
                           <option>DZA-ALGERIA</option>
                         </select>
                       </div>
-                    </div>
+                    
               </div>
     
              
@@ -206,9 +206,9 @@
         </div>
         
    
+        <hr style="height:2px; width:100%; border-width:2; color:blue; background-color:blue"> 
 
-
-        <div class="card card-default">
+        <div class="card card-default shadow">
           <div class="card-header">
             <h4 class="card-title"><b>PROFESSION AND OCCUPATION</b></h4>
 
@@ -221,10 +221,10 @@
               <!-- /.card-header -->
               <div class="card-body">
                 <div class="row" >
-                  
+                  <div class="col-md-6">
                     <div class="form-group row " style="margin: auto;">
-                      <label class="col-sm-5 col-form-label">Proffesion</label>
-                      <div class="col-sm-6">
+                      <label class="col-sm-4 col-form-label">Proffesion</label>
+                      <div class="col-sm-8">
                         <select class="form-control select2bs4" style="width: 100%;">
                           <option selected="selected"></option>
                           <option>Accountant</option>
@@ -236,13 +236,16 @@
                         </select>
                       </div>
                     </div>
-                    
+                  </div>
+                  <div class="col-md-6">
                     <div class="form-group row" style="margin: auto;">
-                      <label for="inputEmail3" class="col-sm-5 col-form-label">Others</label>
-                      <div class="col-sm-6">
+                      <label for="inputEmail3" class="col-sm-4 col-form-label">Others</label>
+                      <div class="col-sm-8">
                         <input type="email" class="form-control" id="inputEmail3" placeholder="">
                       </div>
                     </div>
+                  </div>
+                  
               </div>
     
              
@@ -253,9 +256,10 @@
             <div class="card-body">
               <div class="row" >
                 
+                <div class="col-md-6">
                   <div class="form-group row " style="margin: auto;">
-                    <label class="col-sm-5 col-form-label">Occupation</label>
-                    <div class="col-sm-6">
+                    <label class="col-sm-4 col-form-label">Occupation</label>
+                    <div class="col-sm-8">
                       <select class="form-control select2bs4" style="width: 100%;">
                         <option selected="selected"></option>
                         <option>Manager</option>
@@ -267,13 +271,16 @@
                       </select>
                     </div>
                   </div>
-                  
+                </div>
+                <div class="col-md-6">
                   <div class="form-group row" style="margin: auto;">
-                    <label for="inputEmail3" class="col-sm-5 col-form-label">Others</label>
-                    <div class="col-sm-6">
+                    <label for="inputEmail3" class="col-sm-4 col-form-label">Others</label>
+                    <div class="col-sm-8">
                       <input type="email" class="form-control" id="inputEmail3" placeholder="">
                     </div>
                   </div>
+                </div>
+                  
             </div>
     
            
@@ -289,10 +296,10 @@
         </div>
         
 
-
+        <hr style="height:2px; width:100%; border-width:2; color:blue; background-color:blue"> 
 
         
-        <div class="card card-default">
+        <div class="card card-default shadow">
           <div class="card-header">
             <h4 class="card-title"><b>EXIT CRITERIA</b></h4>
 
@@ -306,7 +313,7 @@
 
         <div class="col-12">
           <!-- SELECT2 EXAMPLE -->
-          <div class="card card-default">
+          <div class="card card-default shadow">
             
             <!-- /.card-header -->
             
@@ -323,19 +330,12 @@
             </div>
           </div>
     
-          <div class="col-md-1.5">
-            <div class="form-group col">
-            <div class="custom-control custom-radio" >
-              <input class="custom-control-input" type="radio" id="customRadio2" name="customRadio">
-              <label for="customRadio1" class="custom-control-label">VisaOA</label>
-            </div>
-          </div>
-        </div>
+          
         <div class="col-md-1.5">
           <div class="form-group col">
           <div class="custom-control custom-radio" >
-            <input class="custom-control-input" type="radio" id="customRadio3" name="customRadio">
-            <label for="customRadio1" class="custom-control-label">Pass</label>
+            <input class="custom-control-input" type="radio" id="customRadio3" name="customRadio" disabled>
+            <label for="customRadio3" class="custom-control-label">Pass</label>
           </div>
         </div>
       </div>
@@ -343,8 +343,8 @@
       <div class="col-md-1.5">
         <div class="form-group col">
         <div class="custom-control custom-radio" >
-          <input class="custom-control-input" type="radio" id="customRadio4" name="customRadio">
-          <label for="customRadio1" class="custom-control-label">PassOA</label>
+          <input class="custom-control-input" type="radio" id="customRadio4" name="customRadio" disabled>
+          <label for="customRadio4" class="custom-control-label">PassOA</label>
         </div>
       </div>
     </div>
@@ -353,7 +353,7 @@
       <div class="form-group col">
       <div class="custom-control custom-radio" >
         <input class="custom-control-input" type="radio" id="customRadio5" name="customRadio">
-        <label for="customRadio1" class="custom-control-label">Permit</label>
+        <label for="customRadio5" class="custom-control-label">Permit</label>
       </div>
     </div>
     </div>
@@ -361,15 +361,15 @@
       <div class="form-group col">
       <div class="custom-control custom-radio" >
         <input class="custom-control-input" type="radio" id="customRadio6" name="customRadio">
-        <label for="customRadio1" class="custom-control-label">Others</label>
+        <label for="customRadio6" class="custom-control-label">Others</label>
       </div>
     </div>
     </div>
     <div class="col-md-1.5">
       <div class="form-group col">
       <div class="custom-control custom-radio" >
-        <input class="custom-control-input" type="radio" id="customRadio7" name="customRadio">
-        <label for="customRadio1" class="custom-control-label">Citizen</label>
+        <input class="custom-control-input" type="radio" id="customRadio7" name="customRadio" disabled>
+        <label for="customRadio7" class="custom-control-label">Citizen</label>
       </div>
     </div>
     </div>
@@ -377,7 +377,7 @@
       <div class="form-group col">
       <div class="custom-control custom-radio" >
         <input class="custom-control-input" type="radio" id="customRadio8" name="customRadio">
-        <label for="customRadio1" class="custom-control-label">Dual Citizen</label>
+        <label for="customRadio8" class="custom-control-label">Deportee</label>
       </div>
     </div>
     </div>
@@ -397,12 +397,12 @@
 <div class="row" style="display: flex; justify-content: center;">
   <div class="col-md-3 ">
    <td>
-     <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-search"></i>&nbsp; Auto Search</button>
+     <button type="button" class="btn btn-block btn-default btn-lg"  style="background-color:#f6e0bb;"> <i class="fa fa-search"></i>&nbsp; Auto Search</button>
    </td>
  </div>
  <div class="col-md-3  ">
    <td>
-     <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-search"></i>&nbsp;Query</button>
+     <button type="button" class="btn btn-block btn-default btn-lg"  style="background-color:#f6e0bb;"> <i class="fa fa-search"></i>&nbsp;Query</button>
    </td>
  </div>
    </div>       
@@ -416,91 +416,93 @@
           <!-- /.card-body -->
           
         </div>
+  
 
+        <hr style="height:2px; width:100%; border-width:2; color:blue; background-color:blue"> 
 
-        <div class="card card-default">
-          <div class="card-header">
-            <h4 class="card-title"><b>VISA</b></h4>
-          </div>
+        <div class="card card-default shadow" id="entrycriteria" style="display: none;">
+          
        
-          <!-- /.card-body -->
-          
-
-          
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="row"> 
-             <div class="col-sm-12" style="height: 100px;">
-                 <button type="button" class="btn btn-block btn-default btn-lg" style="height: 100px;"></button>
-             </div>
-             <div class="col-sm-5 " style="height: 100px;">
-
-          
-             </div>
-
-            </div>   
-
-
-         </div><!-- /.col -->
-          <div class="col-sm-6">
-             <div class="row"> 
-              <div class="col-sm-12" style="height: 100px;">
+          <nav class="navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
             
-            
-                  <button type="button" class="btn btn-block btn-default btn-lg" style="height: 100px;"></button>
-             
+        <!-- left navbar links -->
+        <ul class="navbar-nav">
+          <!-- Navbar Search -->
 
-              </div>
-              
-              
-              <div class="col-sm-5 " style="height: 100px;">
+          <li class="nav-item">
+            <td>
+              <button type="button" id="visa" class="btn btn-block btn-default btn-lg">VISA</button>
+            </td>
+          </li>
+          &nbsp;  &nbsp;
+          <li class="nav-item">
+            <td>
+              <button type="button" id="permit" class="btn btn-block btn-default btn-lg">PERMIT</button>
+            </td>
+          </li>
+          &nbsp;  &nbsp;
+          <li class="nav-item">
+            <td>
+              <button type="button" id="others" class="btn btn-block btn-default btn-lg">OTHERS</button>
+            </td>
+          </li>
+        
+         
+        </ul>
+        
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+              <!-- Navbar Search -->
+             
+            </ul>
+          </nav>
 
-             
-               
-              
-             
-              
+          <div style="height: 300px;">
+            <div class="row" id="content">
+              <div class="col-sm-2">
+                <button type="button" class="btn btn-block btn-default btn-lg" style="height: 200px;"></button>
+  
+
+                <button type="button" class="btn btn-block btn-default btn-lg" style="height: 80px;"> More details</button>
+
+
+
+
+            </div><!-- /.col -->
+              <div class="col-sm-6">
+                <button type="button" class="btn btn-block btn-default btn-lg" style="height: 300px;"></button>
                 
-
-              </div>
-
-             </div>   
-
-
-          </div><!-- /.col -->
-
-
-
-          <div class="col-sm-4">
-            <div class="row"> 
-             <div class="col-sm-12" style="height: 100px;">
-           
-           
-                 <button type="button" class="btn btn-block btn-default btn-lg" style="height: 100px;"></button>
-            
-
-             </div>
-             
-             
-             <div class="col-sm-3 " style="height: 100px;">
-
-          
-             </div>
-
-            </div>   
-
-
-         </div><!-- /.col -->
-
-
-<!-- SELECT2 EXAMPLE -->
-
-
-
-
-        </div><!-- /.row -->
-
+              </div><!-- /.col -->
+  
+  
+  
+              <div class="col-sm-4">
+                <button type="button" class="btn btn-block btn-default btn-lg" style="height: 200px;"></button>
+  
+                <div class="form-group col " style="margin: auto;" style="width: 100px;">
+                  <label class="col-form-label">Status</label>
+                  <div class="">
+                    <select class="form-control select2bs4" style="width: 100%;">
+                      <option selected="selected"></option>
+                      <option>valid</option>
+                      <option>still valid</option>
+                      <option>expired</option>
+                    </select>
+                  </div>
+                </div>   
+  
+  
+            </div><!-- /.col -->
+  
+            <!-- SELECT2 EXAMPLE -->
+  
+            </div><!-- /.row -->
+          </div>
+          <hr style="height:2px; width:100%; border-width:2; color:blue; background-color:blue"> 
         </div>
+
+
         <div class="row " style="width: 100%;">
           <ul class="navbar-nav">
           <div class="col-md-1.5">
@@ -509,7 +511,7 @@
             
             <div class="form-group col">
               <td>
-                <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp;Previous</button>
+                <button type="button" class="btn btn-block btn-default btn-lg" style="background-color: #488d67;color:white"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp;Previous</button>
               </td>
             </div>
                    
@@ -522,19 +524,20 @@
           <div class="col-md-1.5">
             <div class="form-group col">
               <td>
-                <button type="button" class="btn btn-block btn-default btn-lg">&nbsp; Next  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-block btn-default btn-lg" style="background-color: #488d67;color:white">&nbsp; Next  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
               </td>
             </div>
           </div>
         </ul>
         
-        </div> 
-          
+        </div>   
   </div><!-- /.row -->
 
     </div><!-- /.container-fluid -->
-
     </div>
+
+
+
     <!-- /.content-header -->
 
     <!-- /.content -->
@@ -591,3 +594,119 @@
 
 </body>
 </html>
+<script>
+  $(window).on('load',  function(){
+    if (feather) {
+      feather.replace({ width: 14, height: 14 });
+    }
+  })
+
+  $('input:radio[name="customRadio"]').on('change', function (e) {
+    
+      var idSelected = this.id;
+      var optionSelected = $("label[for='"+idSelected+"']").text();
+
+      console.log(idSelected)
+      console.log(optionSelected)
+
+      if (optionSelected == "Visa") {
+        $("#content").show();
+        $("#entrycriteria").show();
+        $("#visa").show();
+        $("#visa").removeClass('disabled');
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").hide();
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+
+      } else if (optionSelected == "VisaOA"){
+        $("#content").hide();
+        $("#visa").hide();
+        $("#visaoa").show();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").hide();
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "Pass"){
+        $("#visa").show();
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").hide();
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "PassOA"){
+        $("#visa").show();
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").hide();
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "Permit"){
+        $("#content").show();
+        $("#entrycriteria").show();
+        $("#visa").show();
+        $("#visa").addClass('disabled');
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").show();
+        $("#permit").removeClass('disabled');
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "Others"){
+        $("#content").show();
+        $("#entrycriteria").show();
+        $("#visa").addClass('disabled');
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").addClass('disabled');
+        $("#others").show();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "Citizen"){
+        $("#visa").show();
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").hide();
+        $("#others").hide();
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      } else if (optionSelected == "Dual Citizen"){
+        $("#content").hide();
+        $("#entrycriteria").show();
+        $("#visa").show();
+        $("#visa").addClass('disabled');
+        $("#visaoa").hide();
+        $("#pass").hide();
+        $("#passoa").hide();
+        $("#permit").show();
+        $("#permit").addClass('disabled');
+        $("#others").show();
+        $("#others").addClass('disabled');
+        $("#citizen").hide();
+        $("#dualcitizen").hide();
+       
+      }
+
+  });
+  
+</script>

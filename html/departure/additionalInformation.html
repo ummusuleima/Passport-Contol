@@ -156,6 +156,7 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
+
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -163,10 +164,10 @@
         <div class="row">
           <div class="col-md-8">
           
-              <div class="card" style="height: 55%;">
+              <div class="card shadow">
               
                 <!-- /.card-header -->
-                <div class="card-body table-responsive p-0" >
+                <div class="card-body table-responsive p-0" style="height: 250px;">
                   <table class="table table-bordered  table-hover">
                     <thead>
                       <tr style="height: 0;">
@@ -182,20 +183,22 @@
                     </tbody>
                   </table>
                 </div>
-                <!-- /.card-body -->
+              
               </div>
         
-
+              <hr style="height:2px; width:95%; border-width:2; color:blue; background-color:blue">
             <div class="form-group col-md-4">
               <td>
                 <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add Dependant</button>
               </td>
             </div>
 
-            <div class="card" style="height: 60%;">
+            <hr style="height:1px; width:95%; border-width:2; color:blue; background-color:blue"> 
+            
+            <div class="card shadow">
               
               <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" >
+              <div class="card-body table-responsive p-0" style="height: 260px;">
                 <table class="table table-bordered  table-hover">
                   <thead>
                     <tr style="height: 0;">
@@ -263,13 +266,13 @@
           <div class="form-group row">
           <div class="col-md-6">
           <td>
-            <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-print" aria-hidden="true"></i>&nbsp; Document scanner</button>
+            <button type="button" class="btn btn-block btn-default btn-lg"  style="background-color:#f6e0bb;"> <i class="fa fa-print" aria-hidden="true"></i>&nbsp; Document scanner</button>
           </td>
          </div>
 
          <div class="col-md-6 ml-auto">
           <td>
-            <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-qrcode" aria-hidden="true"></i>&nbsp; Passport scanner</button>
+            <button type="button" class="btn btn-block btn-default btn-lg"  style="background-color:#f6e0bb;"> <i class="fa fa-qrcode" aria-hidden="true"></i>&nbsp; Passport scanner</button>
           </td>
         </div>
         </div>
@@ -277,19 +280,45 @@
      <h4>   Document</h4>
      <td >
       
-      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 40%;">No image data</button>
+      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 100px;">No image data</button>
+    </td>
+    <td>
+      <button type="button" class="btn btn-block btn-default btn-lg"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add to collection</button>
     </td>
 
-        <div class="col-md-12">
-          <td>
-            <button type="button" class="btn btn-block btn-default btn-lg"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp;Add to collection</button>
-          </td>
-         </div>
 
       </div> 
 
     <!-- /.content-header -->
 
+    <div class="row " style="width: 100%;">
+      <ul class="navbar-nav">
+      <div class="col-md-1.5">
+        
+        <!-- /.form-group -->
+        
+        <div class="form-group col">
+          <td>
+            <button type="button" class="btn btn-block btn-default btn-lg" style="background-color: #488d67;color:white"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp;Previous</button>
+          </td>
+        </div>
+               
+      </div>
+    </ul> 
+    
+  
+      <ul class="navbar-nav ml-auto">
+  
+      <div class="col-md-1.5">
+        <div class="form-group col">
+          <td>
+            <button type="button" class="btn btn-block btn-default btn-lg" style="background-color: #488d67;color:white">&nbsp; Next  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+          </td>
+        </div>
+      </div>
+    </ul>
+  
+  </div>
     <!-- /.content -->
   </div>
 
@@ -302,8 +331,11 @@
   
       </div>
       
+      
   </div>
+  
 </div>
+ 
 </div>
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

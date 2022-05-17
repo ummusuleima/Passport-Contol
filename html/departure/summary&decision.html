@@ -162,6 +162,8 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
+
+
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
@@ -193,7 +195,7 @@
                   <div class="col-sm-2">
                     <td >
                 
-                      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 90%;">No image data</button>
+                      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 90%;"><h6>No image data</h6></button>
                     </td>
                     
                     <h6 style="text-align: center;">chip</h6>
@@ -202,7 +204,7 @@
                   <div class="col-sm-2">
                     <td >
                 
-                      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 90%;">No image data</button>
+                      <button type="button" class="btn btn-block btn-default btn-lg" style="height: 90%;"><h6>No image data</h6></button>
                     </td>
                     <h6 style="text-align: center;">Live</h6>
                     <!-- /.card -->
@@ -392,7 +394,7 @@
               <div class="row" style="display: flex;justify-content: center;">
               <div class="form-group col-md-6" >
                 <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-file" aria-hidden="true"></i>&nbsp;System decision summary</button>
+                  <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-file" aria-hidden="true"></i>&nbsp;system desion summary</button>
                 </td>
               </div>
             </div>
@@ -462,7 +464,7 @@
                       <div class="navbar-nav">
                       <div class="row-md-6">
                         <div class="form-group col">
-                            <h6>Description</h6>
+                            <h6>Previous</h6>
                         </div>
                            
                         
@@ -472,7 +474,7 @@
                       <div class="row-md-6">
                         <div class="form-group col">
                    
-                            <h6>Action</h6>
+                            <h6> Next</h6>
                      
                         </div>
                       </div>
@@ -486,242 +488,150 @@
             </div>
 
 
-              
-              
 
-              
-         
-            <div class="row mb-2">
-              
-              <h5><b>SCREENING LIST</b></h5> 
-             </div>
-              
-             <div class="card" style="height: 20%;">
-              
+            <div class="card card-default">
+              <div class="card-header">
+                <h3 class="card-title"><b>SCREENING LIST</b></h3> 
+              </div>
+  
               <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" >
-                <table class="table table-bordered  table-hover">
-                  <thead>
-                    <tr>
-                      <th></th>
-                      <th> Doc No</th>
-                      <th>Given Name</th>
-                      <th>Nationality</th>
-                      <th>Screening action</th>
-                      <th>Screeninglist type</th>
-                      <th>Institution</th>
-                      <th>Reporting officer</th>
-                      <th>Source</th>
-                   
-                    </tr>
-                  </thead>
-                  <tbody>            
-                  </tbody>
-                </table>
+              <div class="col-sm-12">
+                <!-- SELECT2 EXAMPLE -->
+                <div class="card card-default">
+              
+                  <div class="card-body table-responsive p-0" style="height: 180px;">
+                    <table class="table table-bordered  table-hover">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Travel Doc</th>
+                          <th>Given Name</th>
+                          <th>Surname</th>
+                          <th>Gender</th>
+                          <th>DoB</th>
+                          <th>Nationality</th>
+                          <th>source</th>
+                       
+                        </tr>
+                      </thead>
+                      <tbody>            
+                      </tbody>
+                    </table>
+        
+                </div> 
               </div>
-              <!-- /.card-body -->
             </div>
               
-              
+            </div>
 
-              <div class="row mb-2">
-              
-                <h5><b>TRAVEL HISTORY</b></h5> 
-               </div>
-             
-               <div class="card" style="height: 20%;">
-              
-                <!-- /.card-header -->
-                <div class="card-body table-responsive p-0" >
-                  <table class="table table-bordered  table-hover">
-                    <thead>
-                      <tr>
-                        <th></th>
-                        <th>Doc No</th>
-                        <th>Given Name</th>
-                        <th>Surname</th>
-                        <th>Gender</th>
-                        <th>DoB</th>
-                        <th>Expiry Date</th>
-                        <th>Border Name</th>
-                        <th>Created date</th>
-                        <th>Entry exit</th>
-                        <th>Transport</th>
-                     
-                      </tr>
-                    </thead>
-                    <tbody>            
-                    </tbody>
-                  </table>
-                </div>
-                <!-- /.card-body -->
+            <div class="card card-default">
+              <div class="card-header">
+                <h3 class="card-title"><b>TRAVEL HISTORY</b></h3> 
               </div>
-               
-           
-
-
-                <div class="row mb-2">
+  
+              <!-- /.card-header -->
+              <div class="col-sm-12">
+                <!-- SELECT2 EXAMPLE -->
+                <div class="card card-default">
               
-                  <h5><b>REMARK/COMMENT</b></h5> 
-                 </div>
-                 <div class="col-sm-12">
-                  <!-- SELECT2 EXAMPLE -->
-                  <div class="card card-default">
-                
-                    <div class="card-body">
-                      <div class="row" style="height: 30px;">
-                        
-                        
-                    </div>
-          
-                  </div> 
-                </div>
+                  <div class="card-body table-responsive p-0" style="height: 180px;">
+                    <table class="table table-bordered  table-hover">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Doc No</th>
+                          <th>Given Name</th>
+                          <th>Surname</th>
+                          <th>Gender</th>
+                          <th>DoB</th>
+                          <th>Expiry Date</th>
+                          <th>Border Name</th>
+                          <th>Created date</th>
+                          <th>Entry exit</th>
+                          <th>Transport</th>
+                       
+                        </tr>
+                      </thead>
+                      <tbody>            
+                      </tbody>
+                    </table>
+        
+                </div> 
               </div>
+            </div>
+              
+            </div>
+
+            <div class="card card-default">
+              <div class="card-header">
+                <h3 class="card-title"><b>REMARK/COMMENT</b></h3> 
+              </div>
+  
+              <!-- /.card-header -->
+              <div class="col-sm-12">
+                <!-- SELECT2 EXAMPLE -->
+                <div class="card card-default">
+              
+                  <div class="card-body table-responsive p-0" style="height: 80px;">
+        
+                </div> 
+              </div>
+            </div>
+              
+            </div>
         
       </div> 
 
-      
-
-
-    
-    <!-- <div class="col-sm-12">
-   
-      <div class="card card-default">
-        
-    
-        <div class="card-body">
-          <div class="row " style="width: 100%;">
-            <ul class="navbar-nav">
-            <div class="col-md-1.5">
-              
-        
-              
-              <div class="form-group col">
-                <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg">Previous</button>
-                </td>
-
-              </div>
-                     
-            </div>
-          </ul> 
-          
-
-         
-
-            <div class="col-md-1.5 ml-auto">
-              <div class="form-group col">
-                <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg">Approve & pending Payment</button>
-                </td>
-               
-              </div>
-            </div>
-            <div class="col-md-1.5 ml-auto">
-              <div class="form-group col">
-                <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg">Approve Entry  </button>
-                </td>
-                
-              </div>
-            </div>
-            <div class="col-md-1.5 ml-auto">
-              <div class="form-group col">
-                <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg">Refuse Entry</button>
-                </td>
-               
-              </div>
-            </div>
-            <div class="col-md-1.5 ml-auto">
-              <div class="form-group col">
-                <td>
-                  <button type="button" class="btn btn-block btn-default btn-lg">Escalate</button>
-                </td>
-               
-              </div>
-            </div>
-          
-        </div>
-
-        
-      </div> 
-    </div>
-  </div> -->
+  
    
   </div>
   <div class="row " style="width: 100%;">
 
-    <ul class="navbar-nav ">
-
-      <li class="nav-item">
-       
+   
+      <div class="col-sm-2">
         <td>
-          <button type="button" class="btn btn-block btn-default btn-lg"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp;Previous</button>
+          <button type="button" class="btn btn-block btn-default btn-lg mx-2 my-1 w-95" style="background-color: #488d67;color:white"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> &nbsp;Previous</button>
         </td>
-       
-        </li>
-    </ul>
+      </div>
 
-
-
-    <ul class="navbar-nav ">
-
-      <li class="nav-item">
-       
-        <td>
-          <button type="button" class="btn btn-block btn-default btn-lg">&nbsp; Pending Payment  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
-        </td>
-       
-        </li>
-    </ul>
-
-    <ul class="navbar-nav ">
-
-      <li class="nav-item">
-       
-        <td>
-          <button type="button" class="btn btn-block btn-default btn-lg">&nbsp; Approve Exit  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
-        </td>
-       
-        </li>
-    </ul>
-  
   
 
-    <ul class="navbar-nav ">
+      <div class="col-sm-4">
+        <td>
+          <button type="button" class="btn btn-block btn-default btn-lg mx-2 my-1 w-95"> Approve &pending Payment  <i class=" fas fa-check-circle" aria-hidden="true"></i></button>
+        </td>
+      </div>
 
-      <li class="nav-item">
-       
+  
+
+      <div class="col-sm-2">
+        <td>
+          <button type="button" class="btn btn-block btn-default btn-lg mx-2 my-1 w-95">&nbsp; Approve Entry  <i class=" fas fa-check-circle" aria-hidden="true"></i></button>
+        </td>
+      </div>
+  
+
+    
+
+      <div class="col-sm-2">
          <td>
-          <button type="button" class="btn btn-block btn-default btn-lg">&nbsp; Refuse Exit <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+          <button type="button" class="btn btn-block btn-default btn-lg mx-2 my-1 w-95">&nbsp; Refuse Entry <i class=" fas fa-lock" aria-hidden="true"></i></button>
         </td>
-       
-        </li>
-    </ul>
+      </div>
   
 
  
 
-  <ul class="navbar-nav ml-auto">
+ 
 
-    <div class="col-md-1.5">
-      <div class="form-group col">
-        
-      </div>
-    </div>
-  </ul>
 
-  <ul class="navbar-nav ">
-
-    <li class="nav-item">
-     
+        <div class="col-sm-2">
         <td>
-          <button type="button" class="btn btn-block btn-default btn-lg">&nbsp; Escalate <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+          <button type="button" class="btn btn-block btn-default btn-lg mx-2 my-1 w-95" style="background-color: #488d67;color:white">&nbsp; Escalate <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
         </td>
      
-      </li>
-  </ul>
+     
+    </div>
 
 </div>
   
@@ -734,7 +644,8 @@
 </div>
   </div>
 </div>
-  <!-- /.content-wrapper -->
+ 
+
   
 
   <!-- Control Sidebar -->
